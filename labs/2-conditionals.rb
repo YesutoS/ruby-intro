@@ -25,3 +25,30 @@
 # "i would like #{5} tacos"
 # We can specify multiple conditions with || (OR) and && (AND)
 # if dinner == "tacos" || dinner == "pizza"
+
+
+#roll dice 1
+dice1 = rand(1..6)
+puts dice1
+puts "Dice 1 #{dice1}"
+
+#roll dice 1
+dice2 = rand(1..6)
+puts dice2
+puts "Dice 2 #{dice2}"
+
+#calculate the total
+total = dice1 + dice2
+puts "Total is #{total}"
+
+# If the numbers add up to 7 or 11, write a message that reads "YOU WIN!"
+# If they add up to 2, 3, or 12, write a message that reads "YOU LOSE!"
+# otherwise, write a message that reads "THE POINT IS {number}"
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12
+    puts "YOU LOSE!"
+else 
+    puts "THE POINT IS #{total}"
+end

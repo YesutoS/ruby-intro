@@ -14,3 +14,21 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+
+#My shopping List
+my_list = ["milk", "egs", "bacon"]
+p my_list
+
+#friend list
+friend_list = ["beer", "cookies", "apples"]
+p friend_list
+
+#Our list
+our_list = my_list + friend_list
+p our_list
+puts our_list.sort
+
+#Unique items only
+puts our_list.uniq
+puts our_list.sort.uniq

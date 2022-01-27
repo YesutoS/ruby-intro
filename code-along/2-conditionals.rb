@@ -3,10 +3,25 @@
 # ruby 2-conditionals.rb
 
 # Booleans
+test_is_true = true
+puts test_is_true
 
 # Boolean Expressions
+puts 3 == 2
+
 
 # If Conditional Logic
+if 3 == 2
+    # do code
+    puts "no!!!!!"
+end
+
+if 3 == 2
+    # do code
+    puts "no!!!!!"
+else
+    puts "math works"
+end
 
 # If/Else Conditional Logic
 
